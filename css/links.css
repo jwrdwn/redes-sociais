@@ -1,0 +1,77 @@
+@charset "UTF_8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    color: #f5f5f5;
+    display: block;
+    padding: 0.5rem 0.2rem;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 3rem;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    text-transform: uppercase;
+    transition: 0.45s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.github {
+    background-color: #161B21;
+}
+
+.github a {
+    background-color: #6CE940;
+    color: #161B21;
+}
+
+.linkedin  {
+    background-color: #ffffff;
+}
+
+.linkedin a {
+    background-color: #0A64C3;
+}
+
+.instagram {
+    background-color: #000000;
+}
+
+.instagram a {
+    background-color: #0195F7;
+}
+
+.spotify {
+    background-color: #121212;
+}
+
+.spotify a {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+.youtube {
+    background-color: #0f0f0f;
+}
+
+.youtube a {
+    background-color: #a00000;
+}
